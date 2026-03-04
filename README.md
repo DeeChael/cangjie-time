@@ -6,6 +6,7 @@
 在数字后添加单位即可转换为 Duration
 ```cangjie
 let duration = 100.seconds // 创建一个 100 秒的 Duration
+let after100seconds = DateTime.now() + duration // 通过拼接创建一个 100 秒后的 DateTime
 ```
 
 | 后缀 | 单位 |
